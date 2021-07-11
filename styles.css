@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  height: 70px;
+  width: 70px;
+  margin: 7px;
+  border: 1px solid black;
+}
+
+#btn {
+  border-radius: 0;
+  margin: 7px;
+  padding: 7px;
+  font-weight: bold;
+  background-color: #d35d47;
+  color: white;
+  border: 1px solid black;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: #ccc;
+  color: black;
+}
