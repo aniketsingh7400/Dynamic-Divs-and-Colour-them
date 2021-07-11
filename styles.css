@@ -6,11 +6,12 @@
 
 .row {
   display: flex;
+  justify-content: center;
 }
 
 .col {
-  height: 70px;
-  width: 70px;
+  min-height: 70px;
+  min-width: 70px;
   margin: 7px;
   border: 1px solid black;
 }
